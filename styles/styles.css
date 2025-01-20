@@ -18,7 +18,6 @@
 /* shared css */
 
 .btn{
-    padding: 10px 60px;
     font-weight: 600;
     font-size: 1.25rem;
     border-radius: 12px;
@@ -39,6 +38,9 @@
 .purple{
     color: rgb(93, 88, 239);
 }
+.black{
+    color: black;
+}
 
 /* header styles */
 .header{
@@ -53,6 +55,8 @@
     grid-template-columns: repeat(3, 1fr);
     margin-top: 20px;
     align-items: center;
+    margin-bottom: 20px;
+    
     
 }
 .left-nav{
@@ -61,10 +65,12 @@
     align-items: center;
     gap: 11px;
 }
-.mid-nav{
+
+.mid-nav-data{
     display: flex;
     gap: 32px;
     align-items: center;
+
 }
 .right-nav{
     margin-left: 186px;
@@ -85,8 +91,100 @@
 }
 .right-nav-bt{
     background-color: #FEA301;
+    padding: 10px 60px;
+}
+#ham-menu-icon{
+    display: none;
 }
 
+/* header main css */
+.header-main-body{
+    display: flex;
+    align-items: center;
+    
+}
+.header-main-img{
+    width: 468.61px;
+    height: 575px;
+    margin-left: 50px;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+
+}
+.header-main-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.header-main-bt{
+    background-color: black;
+    padding: 10px 47px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive media queries */
+@media screen and (max-width :576px) {
+    .navbar{
+        border: 1px solid orange;
+        margin-top: 0px;
+        padding: 12px 16px;
+    }
+    .left-nav-name , .mid-nav-data , .right-nav-bt{
+        display: none;
+    }
+    #ham-menu-icon{
+        display: block;
+        height: 30px;
+        width: 30px;
+        margin-left: 110px;
+    }
+    .header-main-body{
+        flex-direction: column-reverse;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .main-title{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .header-main-description{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .header-main-bt-container{
+        display: flex;
+        justify-content: center;
+    }
+    .header-main-bt{
+        padding: 6px 24px;
+    }
+    .btn{
+        font-size: 1rem;
+        border-radius: 8px;
+        font-weight: 700;
+    }
+    .header-main-img{
+        width: 373.58px;
+        height: 423px;
+        margin: 0 auto;
+    }
+
+    
+}
 
 
 
