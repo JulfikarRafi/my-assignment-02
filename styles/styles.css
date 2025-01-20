@@ -124,6 +124,99 @@
     padding: 10px 47px;
 }
 
+/* main css */
+.main{
+    margin: 0 auto;
+    max-width: 1158.61px;
+    
+}
+.standard{
+    background-image: url('/assets/bg.png');
+    /* background-repeat: no-repeat; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    
+}
+.standard-title{
+    font-weight: 700;
+    font-size: 2.87rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.standard-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28.29px;
+}
+.card-1{
+    border: 1px solid #DEF5FF;
+    background-color: #DEF5FF;
+    text-align: center;
+    padding: 53px 40px;
+    border-radius: 18.86px;
+    background-image: linear-gradient(#DEF5FF, 25%  ,white ,rgb(255, 255, 255) );
+}
+.card-2{
+    border: 1px solid rgba(255, 244, 220, 1);
+    background-color: rgba(255, 244, 220, 1); 
+    text-align: center;
+    padding: 53px 40px;
+    border-radius: 18.86px;
+    background-image: linear-gradient(rgba(255, 244, 220, 1), 25%  ,white, white );
+}
+.card-3{
+    border: 1px solid rgba(242, 232, 255, 1);
+    text-align: center;
+    padding: 53px 40px;
+    border-radius: 18.86px;
+    background-image: linear-gradient(rgba(242, 232, 255, 1), 25%  ,white,white );
+
+    
+}
+.card-title{
+    margin-top: 32px;
+    margin-bottom: 33px;
+    font-weight: 700;
+    font-size: 1.53rem;
+
+
+}
+.card-title-2{
+    margin-top: 44px;
+    margin-bottom: 33px;
+    font-weight: 700;
+    font-size: 1.53rem;
+}
+.card-description{
+    margin-bottom: 34px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(128, 128, 128);
+}
+.card-subtitle-1{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(100, 200, 255, 1);
+}
+.card-subtitle-2{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(240, 170, 0, 1);
+}
+.card-subtitle-3{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(135, 0, 255, 1);
+}
+.standard-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
 
 
 
