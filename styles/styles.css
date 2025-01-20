@@ -1,3 +1,94 @@
+/* Text font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+/* main css */
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared css */
+
+.btn{
+    padding: 10px 60px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    color: white;
+    border: none;
+}
+/* colors */
+.orange{
+    color: #FEA301;
+
+}
+.skyblue{
+    color: #01ACFD;
+}
+.cyan{
+    color: rgb(5, 212, 223);
+}
+.purple{
+    color: rgb(93, 88, 239);
+}
+
+/* header styles */
+.header{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    max-width: 1158.61px;
+}
+
+/* navbar */
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    align-items: center;
     
 }
+.left-nav{
+    display: flex;
+    margin-right: 186px;
+    align-items: center;
+    gap: 11px;
+}
+.mid-nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.right-nav{
+    margin-left: 186px;
+}
+.left-nav-name{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-mid-info-1{
+    font-size: 1.25rem;
+    font-weight: 700;
+
+}
+.nav-mid-info{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.right-nav-bt{
+    background-color: #FEA301;
+}
+
+
+
+
+
+
