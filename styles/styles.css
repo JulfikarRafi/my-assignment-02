@@ -362,7 +362,7 @@
 .footer-main-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 122px 220px 175px 141px;
+    padding: 122px 220px 140px 180px;
 }
 
 .footer-left-top{
@@ -389,6 +389,37 @@
     color: white;
 }
 
+.footer-mid-subtitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+.footer-mid-info{
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.footer-mid-container{
+    margin-left: 170px;
+}
+.footer-right-container{
+    margin-left: 143px;
+}
+
+.right-subtitle{
+    color: white;
+    font-size: 1.62rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.footer-right-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
 
 
@@ -511,6 +542,18 @@
     }
     #extra-box{
         display: block;
+    }
+
+    .footer-main-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 65px 12px 60px 20px;
+    }
+    
+    .footer-mid-container{
+        margin: 32px 0px 0px 0px;
+    }
+    .footer-right-container{
+        margin: 0px;
     }
 
     
