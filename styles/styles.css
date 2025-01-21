@@ -83,19 +83,43 @@
 .nav-mid-info-1{
     font-size: 1.25rem;
     font-weight: 700;
+    cursor: pointer;
 
 }
+.nav-mid-info-1:hover{
+    font-size: 1.35rem;
+}
+
+
+
 .nav-mid-info{
     font-size: 1.25rem;
     font-weight: 500;
+    cursor: pointer;
 }
+.nav-mid-info:hover{
+    font-size: 1.35rem ;
+}
+
+
 .right-nav-bt{
     background-color: #FEA301;
     padding: 10px 60px;
+    transition: 0.3s;
+    cursor: pointer;
 }
+.right-nav-bt:hover{
+    background-color: #01ACFD;
+    color: #FEA301;
+    font-weight: 800;
+    
+}
+
+
 #ham-menu-icon{
     display: none;
 }
+
 
 /* header main css */
 .header-main-body{
@@ -122,13 +146,21 @@
 .header-main-bt{
     background-color: black;
     padding: 10px 47px;
+    cursor: pointer;
+    transition: 0.3s;
 }
+.header-main-bt:hover{
+    font-weight: 800;
+    background-color: #FEA301;
+    color: #01ACFD;
+}
+
 
 /* main css */
 .main{
-    background-color: rgba(254, 163, 1, 1);
+    /* background-color: rgba(254, 163, 1, 1); */
     padding-bottom: 100px;
-    background: url('../assets/bg.png'), linear-gradient( white 55%, rgb(255, 227, 179) );
+    background: url('../assets/bg.png'), linear-gradient( white 55%, rgb(255, 224, 172) );
 
     
 }
@@ -201,16 +233,37 @@
     font-size: 1rem;
     font-weight: 700;
     color: rgba(100, 200, 255, 1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card-subtitle-1:hover{
+    font-size: 1.2rem;
+    font-weight: 800;
+
 }
 .card-subtitle-2{
     font-size: 1rem;
     font-weight: 700;
     color: rgba(240, 170, 0, 1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card-subtitle-2:hover{
+    font-size: 1.2rem;
+    font-weight: 800;
+
 }
 .card-subtitle-3{
     font-size: 1rem;
     font-weight: 700;
     color: rgba(135, 0, 255, 1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card-subtitle-3:hover{
+    font-size: 1.2rem;
+    font-weight: 800;
+
 }
 .standard-button-container{
     display: flex;
@@ -218,6 +271,16 @@
     align-items: center;
     margin-top: 80px;
     margin-bottom: 60px;
+    gap: 10px;
+}
+
+.prev-next{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.prev-next:hover{
+    width: 62px;
+    height: 62px;
 }
 
 /* stories section */
@@ -255,7 +318,13 @@
     border-radius: 48px;
     border: none;
     position:absolute ;
+    cursor: pointer;
+    transition: 0.3s;
 
+}
+.story-left-btn:hover{
+    font-weight: 600 ;
+    background-color: rgba(149, 178, 38, 1);
 }
 .stories-left-info-container{
     margin-top: -25px;
@@ -293,7 +362,14 @@
     padding: 11px 19px;
     border-radius: 48px;
     border: none;
+    cursor: pointer;
+    transition: 0.3s;
 }
+.right-btn-one:hover{
+    background-color: rgba(93, 88, 240, 1);
+    font-weight: 600;
+}
+
 .right-btn-two{
     position: absolute;
     margin-left: -255px;
@@ -305,6 +381,13 @@
     padding: 11px 19px;
     border-radius: 48px;
     border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.right-btn-two:hover{
+    background-color: rgba(149, 178, 38, 1);
+    font-weight: 600;
 
 }
 .right-story-first-box{
@@ -341,6 +424,15 @@
     background-color: black;
     color: white;
     border-radius: 12px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+
+}
+.view-btn:hover{
+    background-color: #FEA301;
+    color: #01ACFD;
+    font-weight: 800;
 
 }
 #extra-box{
@@ -351,6 +443,7 @@
 .footer{
     background-color: rgba(1, 172, 253, 1);
 }
+
 
 .footer-main-container{
     display: grid;
@@ -387,12 +480,22 @@
     font-weight: bold;
     color: white;
     margin-bottom: 32px;
+    cursor: pointer;
+}
+.footer-mid-subtitle:hover {
+    font-weight: 1000;
+    color: #FEA301;
 }
 .footer-mid-info{
     font-weight: 500;
     font-size: 1.25rem;
     color: white;
     margin-bottom: 25px;
+    cursor: pointer;
+}
+.footer-mid-info:hover{
+    color: #FEA301;
+    font-weight: 600;
 }
 
 .footer-mid-container{
@@ -413,6 +516,8 @@
     flex-direction: row;
     gap: 10px;
 }
+
+
 
 
 
