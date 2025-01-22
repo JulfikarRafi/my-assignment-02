@@ -548,7 +548,7 @@
         display: block;
         height: 30px;
         width: 30px;
-        margin-left: 66px;
+        margin-left: 65px;
     }
     .header-main-body{
         flex-direction: column-reverse;
@@ -683,10 +683,38 @@
         max-width: 100%;
     }
 
+}
+
+@media screen and (max-width :360px) {
+    .right-btn-one{
+        position: absolute;
+        margin-left: -150px;
+        margin-top: 90px;
+        background-color: rgba(149, 178, 38, 1);
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 6px 11px;
+        border-radius: 28px;
+        border: none;
+    }
 
 
+     
 
-
+    .right-btn-two{
+        position: absolute;
+        margin-left: -150px;
+        margin-top: 90px;
+        background-color: rgba(93, 88, 240, 1);
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 6px 11px;
+        border-radius: 28px;
+        border: none;
+    
+    }
     
 }
 
